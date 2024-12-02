@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like ReactJs, as well as back-end technologies like Node.js, Express.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -46,8 +47,33 @@ right doctors based on specialisation, location, or availability along with Razo
     image: project2,
     description: `A web application enabling users to manage & manipulate personal data. This application enables the user to perform CREATE, RETRIEVE,
 UPDATE & DELETE (CRUD) operations on their personal data.`,
-    technologies: ["React.js", "Express.js", "Node.js", "MongoDB", "Postman"],
+    technologies: [
+      "React.js",
+      "TailwindCSS",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Postman",
+    ],
     githubRepo: "https://github.com/Developer2925/users_crud",
+  },
+  {
+    title: "Book Inventory ( Full Stack )",
+    image: project6,
+    description: `Enables users to add, edit, update, and delete book details, including the Title, Author, and Publishing Date.
+    Integrated React-Notistack to provide real-time notifications for data creation, updates, and deletions, enhancing user
+engagement. Added a search filter feature to allow users to quickly locate specific records within the inventory.
+Implemented dual view modes, Table View for detailed data representation and Card View for a visually appealing
+layout, ensuring user convenience.`,
+    technologies: [
+      "React.js",
+      "TailwindCSS",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Postman",
+    ],
+    githubRepo: "https://github.com/Developer2925/book_inventory",
   },
   {
     title: "Gaming Website ( UI )",
@@ -83,6 +109,7 @@ devices. Focused on accessibility and usability to meet modern UI/UX standards.`
     reflects my expertise and passion for web development.`,
     technologies: ["React.js", "TailwindCSS", "Framer Motion"],
     githubRepo: "https://github.com/Developer2925/portfolio",
+    projectLink: "https://om-dhakulkar-portfolio.vercel.app",
   },
 ];
 
