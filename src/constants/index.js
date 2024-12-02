@@ -179,7 +179,7 @@ export const ACHIEVEMENTS = [
 
 export const CONTACT = {
   address:
-    "PNo. 15, Shivshakti Nagar, Dattawadi, Nagapur, Maharashtra, India, 440023",
+    "PNo. 15, Shivshakti Nagar, Dattawadi, Nagpur, Maharashtra, India, 440023",
   phoneNo: "+91 9175293342 ",
   email: "omdhakulkar2925@gmail.com",
 };
